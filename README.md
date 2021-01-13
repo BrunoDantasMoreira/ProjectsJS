@@ -1,2 +1,3 @@
 # projectsJS
- Projetcts and exercises of JavaScript
+---
+ Projetcts and exercises of **JavaScript**
