@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordem Paranormal Dados</title>
+  <link rel="icon" href="./imagens/Simbolo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header onclick="recomecar()">
+    <h1>SIMULADOR DE DADOS DE RPG</h1>
+  </header>
+
+  <section id="s">
+
+    <div id="superior-esquerdo">
+      <!-- <input type="button" > -->
+      <a href="https://twitter.com/search?q=%23Desconjuração&src=related_query_click" target="_blank" rel="external"
+        title="twitter">O</a>
+    </div>
+
+    <div id="superior-direito">
+      <!-- <input type="button"> -->
+      <a href="file:///home/bruno/Courses/JavaScript/Programas/DiceOSNF/index.html" title="OSNF">O</a>
+    </div>
+
+    <div id="listra"></div>
+
+    <h2>
+      O que você quer rolar?
+    </h2>
+    <h3>
+
+      <input type="button" value="Antropologia" onmouseover="Antropologia()" onclick="RolarAn()" class="botao" id="botao17" />
+      
+      <input type="button" value="Aparencia" onmouseover="Aparencia()" onclick="RolarA()" class="botao" id="botao15" />
+      
+      <input type="button" value="Armas De Fogo" onmouseover="ArmasDeFogo()" onclick="RolarA()" class="botao" id="botao4" />
+
+      <input type="button" value="Arqueologia" onmouseover="Arqueologia()" onclick="RolarAr()" class="botao" id="botao4" />
+
+      <input type="button" value="Arremessar" onmouseover="Arremessar()" onclick="RolarArr()" class="botao" id="botao4" />
+
+      <input type="button" value="Arte_e_Oficio" onmouseover="(Arte_e_Oficio())" onclick="RolarAO()" class="botao" id="botao4" />
+
+      <input type="button" value="Avalaliação" onmouseover="(Avalaliação())" onclick="RolarAv()" class="botao" id="botao4" />
+
+      <input type="button" value="Charme" onmouseover="(Charme())" onclick="RolarCh()" class="botao" id="botao4" />
+
+      <input type="button" value="Chaveiro" onmouseover="(Chaveiro())" onclick="RolarCha()" class="botao" id="botao4" />
+<p></p>
+      <input type="button" value="Ciência" onmouseover="(Ciência())" onclick="RolarCi()" class="botao" id="botao4" />
+
+      <input type="button" value="Contabilidade" onmouseover="(Contabilidade())" onclick="RolarCo()" class="botao" id="botao4" />
+
+      <input type="button" value="Concerto" onmouseover="(Concerto())" onclick="RolarCon()" class="botao" id="botao4" />
+
+      <input type="button" value="Constituição" onmouseover="Constituição()" onclick="RolarC()" class="botao" id="botao18" />
+
+      <input type="button" value="Destreza" onmouseover="Destreza()" onclick="RolarD()" class="botao" id="botao2" />
+
+      <input type="button" value="Direito" onmouseover="Direito()" onclick="RolarDi()" class="botao" id="botao2" />
+
+      <input type="button" value="Dirigir" onmouseover="Dirigir()" onclick="RolarDir()" class="botao" id="botao2" />
+
+      <input type="button" value="Disfarce" onmouseover="Disfarce()" onclick="RolarDis()" class="botao" id="botao2" />
+
+      <input type="button" value="Educação" onmouseover="Educação()" onclick="RolarEd()" class="botao" id="botao16" />
+
+      <input type="button" value="Eletronica" onmouseover="Eletronica()" onclick="RolarEl()" class="botao" id="botao16" />
+<p></p>    
+      <input type="button" value="Encontrar" onmouseover="Encontrar()" onclick="RolarE()" class="botao" id="botao3" />
+
+      <input type="button" value="Escalar" onmouseover="Escalar()" onclick="RolarEsc()" class="botao" id="botao3" />
+      
+      <input type="button" value="Escutar" onmouseover="Escutar()" onclick="RolarEscu()" class="botao" id="botao3" />
+
+      <input type="button" value="Esquivar" onmouseover="Esquivar()" onclick="RolarEs()" class="botao" id="botao5" />
+
+      <input type="button" value="Exposição_Paranormal" onmouseover="Exposição_Paranormal()" onclick="RolarEP()" class="botao" id="botao5" />
+   
+      <input type="button" value="Força" onmouseover="Força()" onclick="RolarFo()" class="botao" id="botao10" />
+
+      <input type="button" value="Furtividade" onmouseover="Furtividade()" onclick="RolarF()" class="botao" id="botao6" />
+
+      <input type="button" value="Historia" onmouseover="Historia()" onclick="RolarH()" class="botao" id="botao5" />
+
+      <input type="button" value="Intimidação" onmouseover="Intimidação()" onclick="RolarI()" class="botao" id="botao13" />
+       
+      <input type="button" value="Labia" onmouseover="Labia()" onclick="RolarL()" class="botao" id="botao7" />
+<p></p>
+      <input type="button" value="Lingua" onmouseover="Lingua()" onclick="RolarLi()" class="botao" id="botao7" />
+
+      <input type="button" value="Luta" onmouseover="Luta()" onclick="RolarLu()" class="botao" id="botao8" />
+
+      <input type="button" value="Medicina" onmouseover="Medicina()" onclick="RolarM()" class="botao" id="botao9" />
+
+      <input type="button" value="Mundo_Natural" onmouseover="Mundo_Natural()" onclick="RolarMu()" class="botao" id="botao9" />
+
+      <input type="button" value="Natação" onmouseover="Natação()" onclick="RolarN()" class="botao" id="botao9" />
+
+      <input type="button" value="Navegação" onmouseover="Navegação()" onclick="RolarNa()" class="botao" id="botao9" />
+      
+      <input type="button" value="Nivel_de_Credito" onmouseover="Nivel_de_Credito()" onclick="RolarNC()" class="botao" id="botao9" />
+
+      <input type="button" value="Ocultismo" onmouseover="Ocultismo()" onclick="RolarO()" class="botao" id="botao9" />
+
+      <input type="button" value="Máquinario" onmouseover="Máquinario()" onclick="RolarM()" class="botao" id="botao9" />
+
+      <input type="button" value="Poder" onmouseover="Poder()" onclick="RolarP()" class="botao" id="botao17" />
+<p></p>
+      <input type="button" value="Sanidade" onmouseover="Sanidade()" onclick="RolarS()" class="botao" id="botao1" />
+
+      <input type="button" value="Sorte" onmouseover="Sorte()" onclick="RolarSo()" class="botao" id="botao14" />
+
+      <input type="button" value="Tamanho" onmouseover="Tamanho()" onclick="RolarT()" class="botao" id="botao12" />
+
+
+    </h3>
+
+    <p id="dado1"></p>
+
+    <div>
+      <div id="atributos"></div>
+      <div id="res"></div>
+    </div>
+    <section id="valor"></section>
+    <div id="foto">
+      <div id="slider">
+        <img id="Desconjuração2" class="selected" src="imagens/Desconjuração2.png" width="400px" height="214px" />
+
+        <img id="Desconjuração" src="imagens/Desconjuração1.jpeg" width="400px" height="214px" />
+
+
+        <img id="Desconjuração3" src="imagens/Desconjuração3.jpeg" width="400px" height="214px">
+
+        <img id="Desconjuração4" src="imagens/Desconjuração4.jpeg" width="400px" height="214px">
+
+        <img id="Desconjuração5" src="imagens/Desconjuração5.jpeg" width="400px" height="214px">
+      </div>
+
+
+      <div>
+        <input type="button" class="botao" id="limpar" value="Limpar" onclick="limpar()" />
+      </div>
+
+      <div id="inferior-esquerdo">
+        <!-- <input type="button"> -->
+      </div>
+
+      <div id="inferior-direito">
+        <!-- <input type="button"> -->
+      </div>
+  </section>
+  </section>
+  <footer>
+    <p>&COPY; Ordem Paranomal Desconjuração</p>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
+
+  <script src='./scripts/scriptI.js'></script>
+</body>
+
+</html>
